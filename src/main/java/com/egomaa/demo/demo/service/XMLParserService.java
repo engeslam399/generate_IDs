@@ -14,6 +14,7 @@ public class XMLParserService {
 
 
 
+
     public List<String> processXml() {
         List<String> result = new ArrayList<>();
         try {
@@ -82,49 +83,86 @@ public class XMLParserService {
 
     private String findUniqueCompositeKey(String className, NodeList parameterList, NodeList objectList) {
         int paramCount = parameterList.getLength();
-        for (int i = 0; i < paramCount; i++) {
-            Element param1 = (Element) parameterList.item(i);
-            String param1Name = param1.getAttribute("name");
-            String param1Value = param1.getAttribute("value");
 
-            for (int j = i + 1; j < paramCount; j++) { // Try pairing with a different parameter
-                Element param2 = (Element) parameterList.item(j);
-                String param2Name = param2.getAttribute("name");
-                String param2Value = param2.getAttribute("value");
-
-                if (isCompositeKeyUnique(param1Name, param1Value, param2Name, param2Value, objectList)) {
-                    return className + "_" + param1Name + "_" + param1Value + "_" + param2Name + "_" + param2Value;
-                }
+        // Try combinations of increasing size until a unique key is found
+        for (int comboSize = 2; comboSize <= paramCount; comboSize++) {
+            List<String> uniqueKey = tryCombination(className, parameterList, objectList, comboSize);
+            if (uniqueKey != null) {
+                return String.join("_", uniqueKey);
             }
         }
-        return className + "_UNKNOWN";
+
+        // If no unique combination is found, return "ANTENNAPORT_UNKNOWN"
+        return className.equals("ANTENNAPORT") ? "ANTENNAPORT_UNKNOWN" : className + "_UNKNOWN";
     }
 
-    private boolean isCompositeKeyUnique(String param1Name, String param1Value, String param2Name, String param2Value, NodeList objectList) {
+    private List<String> tryCombination(String className, NodeList parameterList, NodeList objectList, int comboSize) {
+        // Generate all combinations of parameters of size comboSize
+        List<List<Element>> combinations = generateCombinations(parameterList, comboSize);
+
+        for (List<Element> combo : combinations) {
+            // Build the composite key
+            List<String> keyParts = new ArrayList<>();
+            keyParts.add(className);
+            for (Element param : combo) {
+                keyParts.add(param.getAttribute("name"));
+                keyParts.add(param.getAttribute("value"));
+            }
+
+            // Check if the composite key is unique
+            if (isCompositeKeyUnique(combo, objectList)) {
+                return keyParts;
+            }
+        }
+
+        return null;
+    }
+
+    private List<List<Element>> generateCombinations(NodeList parameterList, int comboSize) {
+        List<List<Element>> combinations = new ArrayList<>();
+        generateCombinationsHelper(parameterList, comboSize, 0, new ArrayList<>(), combinations);
+        return combinations;
+    }
+
+    private void generateCombinationsHelper(NodeList parameterList, int comboSize, int start, List<Element> current, List<List<Element>> combinations) {
+        if (current.size() == comboSize) {
+            combinations.add(new ArrayList<>(current));
+            return;
+        }
+
+        for (int i = start; i < parameterList.getLength(); i++) {
+            current.add((Element) parameterList.item(i));
+            generateCombinationsHelper(parameterList, comboSize, i + 1, current, combinations);
+            current.remove(current.size() - 1);
+        }
+    }
+
+    private boolean isCompositeKeyUnique(List<Element> combo, NodeList objectList) {
         int count = 0;
         for (int i = 0; i < objectList.getLength(); i++) {
             Element objectElement = (Element) objectList.item(i);
             NodeList parameterList = objectElement.getElementsByTagName("parameter");
 
-            boolean param1Match = false, param2Match = false;
-            for (int j = 0; j < parameterList.getLength(); j++) {
-                Element parameterElement = (Element) parameterList.item(j);
-                String name = parameterElement.getAttribute("name");
-                String value = parameterElement.getAttribute("value");
-
-                if (name.equals(param1Name) && value.equals(param1Value)) {
-                    param1Match = true;
+            boolean allMatch = true;
+            for (Element comboParam : combo) {
+                boolean paramMatch = false;
+                for (int j = 0; j < parameterList.getLength(); j++) {
+                    Element parameterElement = (Element) parameterList.item(j);
+                    if (comboParam.getAttribute("name").equals(parameterElement.getAttribute("name")) &&
+                            comboParam.getAttribute("value").equals(parameterElement.getAttribute("value"))) {
+                        paramMatch = true;
+                        break;
+                    }
                 }
-                if (name.equals(param2Name) && value.equals(param2Value)) {
-                    param2Match = true;
+                if (!paramMatch) {
+                    allMatch = false;
+                    break;
                 }
             }
-            if (param1Match && param2Match) {
+            if (allMatch) {
                 count++;
             }
         }
         return count == 1;
     }
-
-
 }
