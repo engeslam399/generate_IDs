@@ -144,9 +144,7 @@
                 <parameter name="ModifyPeriodCoeffForNb" value="MOD_PERIOD_COEFF_N32"/>
             </object>
         </class>
-
-
-            <class name="ANTENNAPORT">
+           <class name="ANTENNAPORT">
             <object>
                 <parameter name="CN" value="0"/>
                 <parameter name="PN" value="R0A"/>
@@ -227,7 +225,950 @@
                 <parameter name="ULTRADELAYSW" value="OFF"/>
                 <parameter name="UOTHD" value="40"/>
             </object>
-            </class>
-
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="60"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="71"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="72"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="73"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="80"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="81"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="82"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="83"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="84"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="85"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="86"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="87"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="88"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="90"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="91"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="92"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="93"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="100"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="101"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="102"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="200"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="201"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="60"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="71"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="72"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="73"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="80"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="81"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="82"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="83"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="84"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="85"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="86"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="87"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="88"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="90"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="91"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="92"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="93"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0C"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="200"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0C"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="201"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0C"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="71"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0D"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="200"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0D"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="201"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0D"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="71"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0E"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="200"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0E"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="201"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0F"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="200"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0F"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="201"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0G"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="200"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0G"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="201"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0H"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="200"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="0"/>
+                <parameter name="PN" value="R0H"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="201"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="1"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="4"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="1"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="1"/>
+                <parameter name="SRN" value="4"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="1"/>
+                <parameter name="PN" value="R0A"/>
+                <parameter name="SN" value="2"/>
+                <parameter name="SRN" value="4"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="1"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="0"/>
+                <parameter name="SRN" value="4"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="1"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="1"/>
+                <parameter name="SRN" value="4"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+            <object>
+                <parameter name="CN" value="1"/>
+                <parameter name="PN" value="R0B"/>
+                <parameter name="SN" value="2"/>
+                <parameter name="SRN" value="4"/>
+                <parameter name="DLDELAY" value="100"/>
+                <parameter name="FEEDERLENGTH" value="0"/>
+                <parameter name="OCTHD" value="155"/>
+                <parameter name="OOTHD" value="185"/>
+                <parameter name="PWRSWITCH" value="OFF"/>
+                <parameter name="THRESHOLDTYPE" value="UER_SELF_DEFINE"/>
+                <parameter name="UCTHD" value="60"/>
+                <parameter name="ULDELAY" value="100"/>
+                <parameter name="ULTRADELAYSW" value="OFF"/>
+                <parameter name="UOTHD" value="40"/>
+            </object>
+        </class>
         </configData>
     </bulkCmConfigDataFile>

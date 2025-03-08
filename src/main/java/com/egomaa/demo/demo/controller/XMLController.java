@@ -19,7 +19,7 @@ public class XMLController {
     }
 
     @GetMapping("/objects")
-    public List<Map<String, String>> getObjects() {
-        return xmlParserService.parseXML();
+    public List<String> getObjects() {
+        return xmlParserService.processXml();
     }
 }
